@@ -1,0 +1,11 @@
+{
+  "valid": "Valid Email Format",
+  "invalid": "Invalid Email Format",
+  "error": "An error occurred while validating the email",
+  "submit": "Submit",
+  "tableHeaders": {
+    "date": "Date / Time",
+    "entry": "Entry",
+    "result": "Result"
+  }
+}
