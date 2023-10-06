@@ -37,26 +37,19 @@ describe('<EntryForm />', () => {
   // it('handles user input and form submission', async () => {
   //   const { getByLabelText, getByText } = render(<EntryForm {...defaultProps} />);
 
-  //   // Find the email input field and Submit button
   //   const emailInput = getByLabelText('Enter your email here') as HTMLInputElement; // Adjust this based on your actual label
   //   const submitButton = getByText('Submit');
 
-  //   // Simulate user input by setting the value property
   //   Object.defineProperty(emailInput, 'value', { value: 'test@example.com' });
 
-  //   // Trigger a change event
   //   fireEvent.change(emailInput);
 
-  //   // Assert that the input value has updated
   //   expect(emailInput.value).toBe('test@example.com');
 
-  //   // Simulate form submission
   //   fireEvent.click(submitButton);
 
-  //   // Debugging: Log the submit function's calls
   //   console.log(mockSubmit.mock.calls);
 
-  //   // Assert that the submit function was called with the correct email
   //   await waitFor(() => {
   //     expect(mockSubmit).toHaveBeenCalledWith('test@example.com');
   //   });
